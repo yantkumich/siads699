@@ -9,7 +9,7 @@ This GitHub Repository contains all the files required to run the project work.
 - vicuna_llm.ipynb
 - result_analysis.ipynb
 - front_end.ipynb
-
+- Dataset, Results and Models can be downloaded at https://storage.googleapis.com/yantk-siads-699/699_final.tar.gz
 
 Please run the files with the following details and instructions.
 
@@ -98,7 +98,7 @@ Notebook:
 - front_end.ipynb
 
 Input file(s): 
-- 1 Keras DNN model (of selected layers size
+- 1 Keras DNN model (2 hidden layers with 768 size each )
 
 Instructions: 
 - This notebook can only be run after step (3) and the output files from step (3) are required to run this step. 
