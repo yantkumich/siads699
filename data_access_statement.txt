@@ -1,0 +1,7 @@
+Webpage with data set details:
+https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset?select=US_youtube_trending_data.csv
+
+The data set we used can be directly downloaded from Kaggle.com with the link above. It contains trending video details from 11 countries in csv files, and also their respective category mappings in json format. These files are updated daily.
+
+License:
+CC0: Public Domain
