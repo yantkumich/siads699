@@ -11,11 +11,11 @@ This GitHub Repository contains all the files required to run the project work.
 - front_end.ipynb
 - Dataset, Results and Models can be downloaded at https://storage.googleapis.com/yantk-siads-699/699_final.tar.gz
 - The Frontend UI:
-![Alt text](https://github.com/yantkumich/siads699/blob/main/frontend.png)
+![Alt text](https://github.com/yantkumich/siads699/blob/main/frontend_in_colab.png)
 
 Please run the files with the following details and instructions.
 
-===========================================================================================================================
+============================================
 (1) DATA SET ANALYSIS
 
 Notebook:
@@ -31,7 +31,7 @@ Instructions:
 - This is an independent notebook which can be run to create visualisations and tables for the raw data. 
 - Country files from the original dataset are required to run this notebook.
 
-===========================================================================================================================
+============================================
 
 (2) DATA MANIPULATION
 
@@ -49,7 +49,7 @@ Output file(s):
 Instructions: 
 - This notebook has the be run before step (3). Country files from the original dataset are required to run this notebook.
 
-===========================================================================================================================
+============================================
 
 (3) MODEL BUILDING / PREDICTIONS
 
@@ -73,7 +73,7 @@ Instructions:
 - This notebook can only be run after step (2) and the output files from step (2) are required to run this step. 
 - This notebook has the be run before step (4).
 
-===========================================================================================================================
+============================================
 
 (4) RESULT ANALYSIS
 
@@ -92,7 +92,7 @@ Output file(s):
 Instructions: 
 - This notebook can only be run after step (3) and the output files from step (3) are required to run this step. 
 
-===========================================================================================================================
+============================================
 
 (5) FRONT END
 
@@ -105,6 +105,6 @@ Input file(s):
 Instructions: 
 - This notebook can only be run after step (3) and the output files from step (3) are required to run this step. 
 
-===========================================================================================================================
+============================================
 
 <END OF README FILE>
