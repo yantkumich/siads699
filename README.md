@@ -11,7 +11,7 @@ This GitHub Repository contains all the files required to run the project work.
 - front_end.ipynb
 - Dataset, Results and Models can be downloaded at https://storage.googleapis.com/yantk-siads-699/699_final.tar.gz
 - The Frontend UI:
-![frontend.png](
+![Alt text](https://github.com/yantkumich/siads699/blob/main/frontend.png)
 
 Please run the files with the following details and instructions.
 
