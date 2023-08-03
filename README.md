@@ -4,16 +4,17 @@ This GitHub Repository contains all the files required to run the project work.
 
 - EDA.ipynb
 - data_manipulation.ipynb
-- kerns.ipynb
+- keras.ipynb
 - gpt2-finetune.ipynb
 - vicuna_llm.ipynb
-- result_analysis.ipynb
+- Result Analysis.ipynb
 - front_end.ipynb
 - Dataset, Results and Models can be downloaded at https://storage.googleapis.com/yantk-siads-699/699_final.tar.gz
 - The Frontend UI:
 ![Alt text](https://github.com/yantkumich/siads699/blob/main/frontend_in_colab.png)
 
 Please run the files with the following details and instructions.
+Please run on Google Colab on Google Cloud Compute Engine VM with Nvidia A100 GPU
 
 ============================================
 
@@ -55,7 +56,7 @@ Instructions:
 (3) MODEL BUILDING / PREDICTIONS
 
 Notebook:
-- kerns.ipynb
+- keras.ipynb
 - gpt2-finetune.ipynb
 - vicuna_llm.ipynb
 
@@ -79,7 +80,7 @@ Instructions:
 (4) RESULT ANALYSIS
 
 Notebook:
-- result_analysis.ipynb
+- Result Analysis.ipynb
 
 Input file(s): 
 - 1 or more test set predictions in csv from Keras DNN model (with different layers sizes)
