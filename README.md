@@ -106,6 +106,6 @@ One highlight of our results shows that a small, specialized word prediction mod
 - [yantk@umich.edu](mailto:yantk@umich.edu)
 - [tywy@umich.edu](mailto:tywy@umich.edu)
 
-July 2023
+last Update: July 2023
 
 <END OF README FILE>
