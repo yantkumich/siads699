@@ -2,6 +2,8 @@
 
 # Project: Are Large Language Models The Best Solutions To All Test-Related Tasks? A YouTube Tags Generation Study. 
 
+In this project, we trained a multilabel classification deep neural network (DNN), fine-tuned GPT2, and used a vanilla Vicuna-13B to generate YouTube Tags over an identical testing dataset. The results was compared and evaluated and stated in the Key Finding section at the bottom of this page. 
+
 This GitHub Repository contains all the files required to run the project work. To reproduce the research results ([Full Report @umich.edu](https://docs.google.com/document/d/1zwRzSSbwNaA2s6xfjEJoCOfMp2S7mzZ-0guKQoUDB8s/edit?usp=drive_link)), it is recommended to run the notebooks in 5 sequential steps (described below) in [Google Colab](https://research.google.com/colaboratory/) with 85GB RAM and 1 Nvidia A100 GPU 40GB, The project was developed and executed in Colab with a Python3 runtime on custom GCE VM which the Google Cloud Compute Engine machine type is [a2-highgpu-1g](https://cloud.google.com/compute/docs/gpus#a100-gpus). Colab links access is avaliable for @umich.edu account. WebUI and some charts are not exportable to GitHub, to view them, click the Colab links.   
 
 - EDA.ipynb ([GitHub](https://github.com/yantkumich/siads699/blob/main/EDA.ipynb) | [Colab](https://colab.research.google.com/drive/1oojE6nFQkMFOQ7f5NirYp_huq5gmFE5B)) 
@@ -17,6 +19,7 @@ This GitHub Repository contains all the files required to run the project work. 
 
 ## Reproduction
 Please run the files (in 5 sequential steps) with the following details and instructions.
+
 **System Requirements:** 
  - 85GB RAM  
  - 1 Nvidia A100 GPU 40GB
@@ -67,7 +70,7 @@ Output file(s):
 - 1 fine-tuned GPT2 model
 - 1 or more test set predictions in csv from Keras DNN model (with different layers sizes)
 - 1 test set predictions in csv from GPT2 model
-- 1 test set predictions in csv from Vicuna2 model
+- 1 test set predictions in csv from Vicuna-13B model
 
 Instructions: 
 - This notebook can only be run after step (2) and the output files from step (2) are required to run this step. 
@@ -80,7 +83,7 @@ Notebook:
 Input file(s): 
 - 1 or more test set predictions in csv from Keras DNN model (with different layers sizes)
 - 1 test set predictions in csv from GPT2 model
-- 1 test set predictions in csv from Vicuna2 model
+- 1 test set predictions in csv from Vicuna-13B model
 - 1 test set csv file with ground truth (YouTube tags)
 
 Output file(s):
@@ -100,7 +103,7 @@ Instructions:
 - This notebook can only be run after step (3) and the output files from step (3) are required to run this step. 
 
 ## Key Findings
-One highlight of our results shows that a small, specialized word prediction model can possibly outperform general, pre-trained LLMs. In our case, a simple DNN with two 768-sized hidden layers had the best overall performance. The fine-tuned GPT2 model’s performance was comparable but with less consistency. Meanwhile, the Vicuna-13B had the worst overall performance and highest resource demand.
+One highlight of our results shows that a small, specialized word prediction model can possibly outperform general, pre-trained LLMs. In our case, a simple DNN with two 768-sized hidden layers had the best overall performance. The fine-tuned GPT2 model’s performance was comparable but with less consistency which might be improved by increasing volume of training dataset. Meanwhile, the Vicuna-13B had the worst overall performance and highest resource demand.
 
 ##  Authors
 - [yantk@umich.edu](mailto:yantk@umich.edu)
