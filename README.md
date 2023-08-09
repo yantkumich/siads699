@@ -105,6 +105,9 @@ Instructions:
 ## Key Findings
 One highlight of our results shows that a small, specialized word prediction model can possibly outperform general, pre-trained LLMs. In our case, a simple DNN with two 768-sized hidden layers had the best overall performance. The fine-tuned GPT2 model’s performance was comparable but with less consistency which might be improved by increasing volume of training dataset. Meanwhile, the Vicuna-13B had the worst overall performance and highest resource demand.
 
+![Alt text](https://github.com/yantkumich/siads699/blob/main/model%20comparison.png)
+
+
 ##  Authors
 - [yantk@umich.edu](mailto:yantk@umich.edu)
 - [tywy@umich.edu](mailto:tywy@umich.edu)
